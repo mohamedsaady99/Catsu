@@ -1,0 +1,72 @@
+.navbar {
+  margin: 0 80px;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  padding: 15px 0;
+  font-family: "Geometos";
+}
+.navbar .brand {
+  font-size: 30px;
+  color: #000;
+}
+.navbar .brand span {
+  color: #7c4fe0;
+  font-size: 40px;
+}
+.navbar .ant-menu-horizontal {
+  border-bottom: none !important;
+  margin-top: 10px;
+}
+.navbar .ri-user-line {
+  background-color: #7c4fe0;
+  color: #fff;
+  padding: 12px;
+  border-radius: 30px;
+  line-height: 43px;
+}
+.navbar .sign {
+  line-height: 25px;
+}
+.navbar .sign button {
+  box-shadow: none !important;
+  font-family: "Geometos" !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+
+@media (max-width: 481px) {
+  .navbar {
+    margin: 0 10px;
+    grid-template-columns: 80% 20%;
+  }
+  .navbar .anticon {
+    content: url(../../assets/images/align-justify.png) !important;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 10px;
+  }
+}
+
+@media (min-width: 482px) and (max-width: 767px) {
+  .navbar {
+    margin: 0 10px;
+    grid-template-columns: 75% 25%;
+  }
+  .navbar .anticon {
+    content: url(../../assets/images/align-justify.png) !important;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 77px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar .anticon {
+    content: url(../../assets/images/align-justify.png) !important;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 77px;
+  }
+}

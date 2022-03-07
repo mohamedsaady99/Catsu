@@ -1,0 +1,131 @@
+.contact {
+  padding: 0 80px 80px 80px;
+}
+.contact .ant-form .ant-input {
+  height: 50px;
+  box-shadow: 1px 2px 2px #e2e2e2;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.contact .ant-form textarea.ant-input {
+  height: 140px;
+}
+.contact .ant-form .ant-btn {
+  font-size: 20px;
+  width: 100%;
+  height: 55px;
+  border-radius: 5px;
+  background-color: #7c4fe0;
+}
+.contact .ant-form .ant-btn:hover,
+.contact .ant-form .ant-btn:focus {
+  background-color: rgba(125, 79, 224, 0.8);
+}
+.contact .ant-form .ant-btn .ri-send-plane-fill {
+  margin-inline-end: 15px;
+  color: #fff;
+}
+.contact .contact-info {
+  padding-inline-end: 80px;
+}
+.contact .contact-info h3 {
+  color: #7c4fe0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.contact .contact-info h4 {
+  margin-bottom: 40px;
+}
+.contact .contact-info .icon {
+  font-size: 24px;
+}
+.contact .contact-info p {
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+.contact .contact-info p .ant-btn {
+  background-color: #7c4fe0;
+  border-color: #7c4fe0;
+  width: 45px;
+  height: 45px;
+  cursor: auto;
+  box-shadow: none;
+}
+.contact .contact-info p .ant-btn:active {
+  box-shadow: none;
+}
+
+.contact .contact-info p span,
+.contact .contact-info p a {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+.contact .contact-info p a:hover {
+  color: #7c4fe0;
+}
+@media (max-width: 481px) {
+  .contact {
+    padding: 0 20px 40px 20px;
+  }
+  .contact .contact-info {
+    padding-inline-end: 0px;
+  }
+  .contact .contact-info p span,
+  .contact .contact-info p a {
+    font-size: 16px;
+  }
+  .contact .contact-info .icon {
+    font-size: 18px;
+  }
+  .contact .contact-info p .ant-btn {
+    width: 35px;
+    height: 35px;
+  }
+  .contact .ant-form .ant-btn {
+    font-size: 18px;
+  }
+  .contact .contact-info h3 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 482px) and (max-width: 767px) {
+  .contact {
+    padding: 0 20px 40px 20px;
+  }
+
+  .contact .contact-info {
+    padding-inline-end: 10px;
+  }
+  .contact .contact-info p span,
+  .contact .contact-info p a {
+    font-size: 16px;
+  }
+  .contact .contact-info .icon {
+    font-size: 18px;
+  }
+  .contact .contact-info p .ant-btn {
+    width: 35px;
+    height: 35px;
+  }
+  .contact .ant-form .ant-btn {
+    font-size: 18px;
+  }
+  .contact .contact-info h3 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact {
+    padding: 0 40px 40px 40px;
+  }
+  .contact .contact-info p span,
+  .contact .contact-info p a {
+    font-size: 16px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+}

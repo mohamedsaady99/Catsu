@@ -1,0 +1,84 @@
+.about {
+  padding: 80px 80px 0 80px;
+}
+.about section {
+  padding: 40px 40px 0 0;
+}
+.about h2 {
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 3;
+}
+.about h3 {
+  font-family: "Geometos";
+  font-size: 30px;
+  color: #7c4fe0;
+}
+.about p {
+  color: black;
+  font-family: "Fredoka";
+  font-size: 20px;
+}
+.about img {
+  width: 100%;
+}
+.about .about-img {
+  position: relative;
+  z-index: 1;
+  bottom: 130px;
+  height: 500px;
+  overflow: hidden;
+}
+
+@media (max-width: 481px) {
+  .about {
+    padding: 40px 10px 0 10px;
+  }
+  .about section {
+    padding: 40px 10px;
+  }
+  .about h3 {
+    font-size: 20px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+  .about .about-img {
+    height: 250px;
+  }
+  .about h2 {
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 482px) and (max-width: 767px) {
+  .about {
+    padding: 40px 80px 0 80px;
+  }
+  .about .about-img {
+    bottom: 0;
+  }
+  .about h2 {
+    margin-bottom: 0px;
+  }
+  .about h3 {
+    font-size: 25px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about h3 {
+    font-size: 25px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  .about .about-img {
+    bottom: 10px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+}

@@ -1,0 +1,92 @@
+.breeds {
+  padding: 0px 80px 100px 80px;
+  margin-top: -80px;
+}
+h2 {
+  text-align: center;
+  font-family: "Fredoka";
+  font-weight: bold;
+  margin-bottom: 80px;
+  color: #7c4fe0;
+  font-size: 40px;
+}
+.breeds .ant-card {
+  box-shadow: 1px 1px 2px #e2e2e2, -1px -1px 2px #e2e2e2;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+.breeds .ant-card:hover {
+  box-shadow: 3px 3px 5px #e2e2e2, -3px -3px 5px #e2e2e2;
+}
+.breeds .ant-card-cover img {
+  border-radius: 10px 10px 0 0;
+  height: 173px;
+}
+.breeds .ant-card:hover img {
+  transform: scale(1.1, 1.1);
+  -webkit-transform: scale(1.1, 1.1);
+  -moz-transform: scale(1.1, 1.1);
+  -ms-transform: scale(1.1, 1.1);
+  -o-transform: scale(1.1, 1.1);
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+}
+
+.breeds a {
+  background-color: #7c4fe0;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  position: relative;
+  top: 33px;
+}
+.breeds a:hover {
+  background-color: rgba(123, 77, 224, 0.8);
+}
+.breeds a.show-more {
+  top: 60px;
+  left: 45%;
+}
+
+@media (max-width: 481px) {
+  .breeds {
+    padding: 0px 20px 50px 20px;
+  }
+  .breeds .ant-card {
+    margin-bottom: 20px;
+  }
+  .breeds a.show-more {
+    left: 33%;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 482px) and (max-width: 767px) {
+  .breeds {
+    padding: 0px 40px 50px 40px;
+    margin-top: 0px;
+  }
+  .breeds .ant-card {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .breeds .ant-card {
+    margin-bottom: 20px;
+  }
+  .breeds {
+    padding: 0px 20px 50px 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+}

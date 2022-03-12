@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Catsu/static/css/main.e0808792.css",
-    "main.js": "/Catsu/static/js/main.f7743e70.js",
+    "main.js": "/Catsu/static/js/main.c3a8a084.js",
     "static/js/787.70bbf6f0.chunk.js": "/Catsu/static/js/787.70bbf6f0.chunk.js",
     "static/media/cat_animation.gif": "/Catsu/static/media/cat_animation.eb334d09e42299ad6e54.gif",
     "static/media/about.gif": "/Catsu/static/media/about.7cc671cb5fa3d5e9645e.gif",
@@ -40,11 +40,11 @@
     "static/media/align-justify.png": "/Catsu/static/media/align-justify.237747d29d545d8c575e.png",
     "index.html": "/Catsu/index.html",
     "main.e0808792.css.map": "/Catsu/static/css/main.e0808792.css.map",
-    "main.f7743e70.js.map": "/Catsu/static/js/main.f7743e70.js.map",
+    "main.c3a8a084.js.map": "/Catsu/static/js/main.c3a8a084.js.map",
     "787.70bbf6f0.chunk.js.map": "/Catsu/static/js/787.70bbf6f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0808792.css",
-    "static/js/main.f7743e70.js"
+    "static/js/main.c3a8a084.js"
   ]
 }
